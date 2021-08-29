@@ -21,7 +21,7 @@ app.get('/about',(req,res)=>{
   res.render('about',{
     title:'About me',
     name:'Rashmi Singh',
-    description:'Currently pursuing btech  from National Institute of Technology Kurukshetra'
+    description:'Currently pursuing B.Tech in Electronics and Communication Engineering at National Institute of Technology Kurukshetra'
   })
 })
 app.get('/help',(req,res)=>{
